@@ -2156,7 +2156,7 @@ function library.createcolorpicker(default, defaultalpha, parent, count, flag, c
         ZIndex = 8
     })
 
-   local alphaicon = utility.create("Image", {
+    local alphaicon = utility.create("Image", {
         Size = UDim2.new(1, 0, 1, 0),
         ZIndex = 9,
         Parent = icon,
